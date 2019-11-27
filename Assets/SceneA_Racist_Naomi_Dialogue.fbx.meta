@@ -1,0 +1,2145 @@
+fileFormatVersion: 2
+guid: 771e6399f48e7e04dba7a2e4f9bfcc19
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: OfficeChair_Rig:Chair_Root_JNT
+    100002: OfficeChair_Rig:Chair_Seat1_JNT
+    100004: OfficeChair_Rig:Chair_Seat2_JNT
+    100006: OfficeChair_Rig:Chair_Seat_End_JNT
+    100008: OfficeChair_Rig:Chair_Swivel_CTL
+    100010: OfficeChair_Rig:Chair_SwivelTilt_CTL
+    100012: OfficeChair_Rig:Chair_Wheel1_End_JNT
+    100014: OfficeChair_Rig:Chair_Wheel1_JNT
+    100016: OfficeChair_Rig:Chair_Wheel2_End_JNT
+    100018: OfficeChair_Rig:Chair_Wheel2_JNT
+    100020: OfficeChair_Rig:Chair_Wheel3_End_JNT
+    100022: OfficeChair_Rig:Chair_Wheel3_JNT
+    100024: OfficeChair_Rig:Chair_Wheel4_End_JNT
+    100026: OfficeChair_Rig:Chair_Wheel4_JNT
+    100028: OfficeChair_Rig:Chair_Wheel5_End_JNT
+    100030: OfficeChair_Rig:Chair_Wheel5_JNT
+    100032: OfficeChair_Rig:Chair_Wheels_CTL
+    100034: OfficeChair_Rig:GLOBAL_CTL
+    100036: OfficeChair_Rig:Office_Chair_GEO
+    100038: OfficeChair_Rig:Office_Chair_GRP
+    100040: rp_naomi_rigged_001_HIK_native:ball_l
+    100042: rp_naomi_rigged_001_HIK_native:ball_r
+    100044: rp_naomi_rigged_001_HIK_native:eye_end_l
+    100046: rp_naomi_rigged_001_HIK_native:eye_end_r
+    100048: rp_naomi_rigged_001_HIK_native:eye_l
+    100050: rp_naomi_rigged_001_HIK_native:eye_r
+    100052: rp_naomi_rigged_001_HIK_native:eyebrow_l
+    100054: rp_naomi_rigged_001_HIK_native:eyebrow_r
+    100056: rp_naomi_rigged_001_HIK_native:eyelid_end_l
+    100058: rp_naomi_rigged_001_HIK_native:eyelid_end_r
+    100060: rp_naomi_rigged_001_HIK_native:eyelid_l
+    100062: rp_naomi_rigged_001_HIK_native:eyelid_r
+    100064: rp_naomi_rigged_001_HIK_native:foot_end_l
+    100066: rp_naomi_rigged_001_HIK_native:foot_end_r
+    100068: rp_naomi_rigged_001_HIK_native:foot_l
+    100070: rp_naomi_rigged_001_HIK_native:foot_r
+    100072: rp_naomi_rigged_001_HIK_native:hand_l
+    100074: rp_naomi_rigged_001_HIK_native:hand_r
+    100076: rp_naomi_rigged_001_HIK_native:head
+    100078: rp_naomi_rigged_001_HIK_native:head_end
+    100080: rp_naomi_rigged_001_HIK_native:hip
+    100082: rp_naomi_rigged_001_HIK_native:index_01_l
+    100084: rp_naomi_rigged_001_HIK_native:index_01_r
+    100086: rp_naomi_rigged_001_HIK_native:index_02_l
+    100088: rp_naomi_rigged_001_HIK_native:index_02_r
+    100090: rp_naomi_rigged_001_HIK_native:index_03_l
+    100092: rp_naomi_rigged_001_HIK_native:index_03_r
+    100094: rp_naomi_rigged_001_HIK_native:index_end_l
+    100096: rp_naomi_rigged_001_HIK_native:index_end_r
+    100098: rp_naomi_rigged_001_HIK_native:jaw
+    100100: rp_naomi_rigged_001_HIK_native:jaw_end
+    100102: rp_naomi_rigged_001_HIK_native:lowerarm_l
+    100104: rp_naomi_rigged_001_HIK_native:lowerarm_r
+    100106: rp_naomi_rigged_001_HIK_native:lowerarm_twist_l
+    100108: rp_naomi_rigged_001_HIK_native:lowerarm_twist_r
+    100110: rp_naomi_rigged_001_HIK_native:lowerleg_l
+    100112: rp_naomi_rigged_001_HIK_native:lowerleg_r
+    100114: rp_naomi_rigged_001_HIK_native:lowerleg_twist_l
+    100116: rp_naomi_rigged_001_HIK_native:lowerleg_twist_r
+    100118: rp_naomi_rigged_001_HIK_native:middle_01_l
+    100120: rp_naomi_rigged_001_HIK_native:middle_01_r
+    100122: rp_naomi_rigged_001_HIK_native:middle_02_l
+    100124: rp_naomi_rigged_001_HIK_native:middle_02_r
+    100126: rp_naomi_rigged_001_HIK_native:middle_03_l
+    100128: rp_naomi_rigged_001_HIK_native:middle_03_r
+    100130: rp_naomi_rigged_001_HIK_native:middle_end_l
+    100132: rp_naomi_rigged_001_HIK_native:middle_end_r
+    100134: rp_naomi_rigged_001_HIK_native:mouth_l
+    100136: rp_naomi_rigged_001_HIK_native:mouth_r
+    100138: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_ChestEndEffector
+    100140: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_ChestOriginEffector
+    100142: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Head
+    100144: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_HeadEffector
+    100146: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Hips
+    100148: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_HipsEffector
+    100150: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftAnkleEffector
+    100152: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftArm
+    100154: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftArmRoll
+    100156: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftElbowEffector
+    100158: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftFoot
+    100160: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftFootEffector
+    100162: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftForeArm
+    100164: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftForeArmRoll
+    100166: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHand
+    100168: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandIndex1
+    100170: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandIndex2
+    100172: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandIndex3
+    100174: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandIndex4
+    100176: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandIndexEffector
+    100178: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandMiddle1
+    100180: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandMiddle2
+    100182: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandMiddle3
+    100184: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandMiddle4
+    100186: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandMiddleEffector
+    100188: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandPinky1
+    100190: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandPinky2
+    100192: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandPinky3
+    100194: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandPinky4
+    100196: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandPinkyEffector
+    100198: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandRing1
+    100200: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandRing2
+    100202: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandRing3
+    100204: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandRing4
+    100206: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandRingEffector
+    100208: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandThumb1
+    100210: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandThumb2
+    100212: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandThumb3
+    100214: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandThumb4
+    100216: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandThumbEffector
+    100218: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHipEffector
+    100220: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftKneeEffector
+    100222: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftLeg
+    100224: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftLegRoll
+    100226: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftShoulder
+    100228: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftShoulderEffector
+    100230: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftToeBase
+    100232: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftUpLeg
+    100234: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftUpLegRoll
+    100236: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftWristEffector
+    100238: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftWristEffectorAux1
+    100240: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Neck
+    100242: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Reference
+    100244: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightAnkleEffector
+    100246: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightArm
+    100248: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightArmRoll
+    100250: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightElbowEffector
+    100252: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightFoot
+    100254: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightFootEffector
+    100256: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightForeArm
+    100258: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightForeArmRoll
+    100260: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHand
+    100262: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandIndex1
+    100264: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandIndex2
+    100266: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandIndex3
+    100268: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandIndex4
+    100270: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandIndexEffector
+    100272: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandMiddle1
+    100274: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandMiddle2
+    100276: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandMiddle3
+    100278: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandMiddle4
+    100280: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandMiddleEffector
+    100282: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandPinky1
+    100284: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandPinky2
+    100286: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandPinky3
+    100288: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandPinky4
+    100290: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandPinkyEffector
+    100292: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandRing1
+    100294: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandRing2
+    100296: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandRing3
+    100298: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandRing4
+    100300: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandRingEffector
+    100302: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandThumb1
+    100304: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandThumb2
+    100306: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandThumb3
+    100308: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandThumb4
+    100310: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandThumbEffector
+    100312: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHipEffector
+    100314: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightKneeEffector
+    100316: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightLeg
+    100318: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightLegRoll
+    100320: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightShoulder
+    100322: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightShoulderEffector
+    100324: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightToeBase
+    100326: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightUpLeg
+    100328: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightUpLegRoll
+    100330: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightWristEffector
+    100332: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightWristEffectorAux1
+    100334: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Spine
+    100336: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Spine1
+    100338: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Spine2
+    100340: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_eye_l_ctrl
+    100342: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_eye_r_ctrl
+    100344: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_eyebrows_controls
+    100346: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_eyebrows_ctrl
+    100348: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_eyebrows_frame
+    100350: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_eyebrows_text
+    100352: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_eyelids_controls
+    100354: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_eyelids_ctrl
+    100356: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_eyelids_frame
+    100358: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_eyelids_text
+    100360: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_eyes_ctrl
+    100362: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_facial_controls
+    100364: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_mouth_controls
+    100366: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_mouth_ctrl
+    100368: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_mouth_frame
+    100370: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_mouth_text
+    100372: rp_naomi_rigged_001_HIK_native:neck
+    100374: rp_naomi_rigged_001_HIK_native:pinky_01_l
+    100376: rp_naomi_rigged_001_HIK_native:pinky_01_r
+    100378: rp_naomi_rigged_001_HIK_native:pinky_02_l
+    100380: rp_naomi_rigged_001_HIK_native:pinky_02_r
+    100382: rp_naomi_rigged_001_HIK_native:pinky_03_l
+    100384: rp_naomi_rigged_001_HIK_native:pinky_03_r
+    100386: rp_naomi_rigged_001_HIK_native:pinky_end_l
+    100388: rp_naomi_rigged_001_HIK_native:pinky_end_r
+    100390: rp_naomi_rigged_001_HIK_native:ring_01_l
+    100392: rp_naomi_rigged_001_HIK_native:ring_01_r
+    100394: rp_naomi_rigged_001_HIK_native:ring_02_l
+    100396: rp_naomi_rigged_001_HIK_native:ring_02_r
+    100398: rp_naomi_rigged_001_HIK_native:ring_03_l
+    100400: rp_naomi_rigged_001_HIK_native:ring_03_r
+    100402: rp_naomi_rigged_001_HIK_native:ring_end_l
+    100404: rp_naomi_rigged_001_HIK_native:ring_end_r
+    100406: rp_naomi_rigged_001_HIK_native:root
+    100408: rp_naomi_rigged_001_HIK_native:rp_naomi_rigged_001
+    100410: rp_naomi_rigged_001_HIK_native:rp_naomi_rigged_001_geo
+    100412: rp_naomi_rigged_001_HIK_native:shoulder_l
+    100414: rp_naomi_rigged_001_HIK_native:shoulder_r
+    100416: rp_naomi_rigged_001_HIK_native:spine_01
+    100418: rp_naomi_rigged_001_HIK_native:spine_02
+    100420: rp_naomi_rigged_001_HIK_native:spine_03
+    100422: rp_naomi_rigged_001_HIK_native:thumb_01_l
+    100424: rp_naomi_rigged_001_HIK_native:thumb_01_r
+    100426: rp_naomi_rigged_001_HIK_native:thumb_02_l
+    100428: rp_naomi_rigged_001_HIK_native:thumb_02_r
+    100430: rp_naomi_rigged_001_HIK_native:thumb_03_l
+    100432: rp_naomi_rigged_001_HIK_native:thumb_03_r
+    100434: rp_naomi_rigged_001_HIK_native:thumb_end_l
+    100436: rp_naomi_rigged_001_HIK_native:thumb_end_r
+    100438: rp_naomi_rigged_001_HIK_native:upperarm_l
+    100440: rp_naomi_rigged_001_HIK_native:upperarm_r
+    100442: rp_naomi_rigged_001_HIK_native:upperarm_twist_l
+    100444: rp_naomi_rigged_001_HIK_native:upperarm_twist_r
+    100446: rp_naomi_rigged_001_HIK_native:upperleg_l
+    100448: rp_naomi_rigged_001_HIK_native:upperleg_r
+    100450: rp_naomi_rigged_001_HIK_native:upperleg_twist_l
+    100452: rp_naomi_rigged_001_HIK_native:upperleg_twist_r
+    100454: //RootNode
+    400000: OfficeChair_Rig:Chair_Root_JNT
+    400002: OfficeChair_Rig:Chair_Seat1_JNT
+    400004: OfficeChair_Rig:Chair_Seat2_JNT
+    400006: OfficeChair_Rig:Chair_Seat_End_JNT
+    400008: OfficeChair_Rig:Chair_Swivel_CTL
+    400010: OfficeChair_Rig:Chair_SwivelTilt_CTL
+    400012: OfficeChair_Rig:Chair_Wheel1_End_JNT
+    400014: OfficeChair_Rig:Chair_Wheel1_JNT
+    400016: OfficeChair_Rig:Chair_Wheel2_End_JNT
+    400018: OfficeChair_Rig:Chair_Wheel2_JNT
+    400020: OfficeChair_Rig:Chair_Wheel3_End_JNT
+    400022: OfficeChair_Rig:Chair_Wheel3_JNT
+    400024: OfficeChair_Rig:Chair_Wheel4_End_JNT
+    400026: OfficeChair_Rig:Chair_Wheel4_JNT
+    400028: OfficeChair_Rig:Chair_Wheel5_End_JNT
+    400030: OfficeChair_Rig:Chair_Wheel5_JNT
+    400032: OfficeChair_Rig:Chair_Wheels_CTL
+    400034: OfficeChair_Rig:GLOBAL_CTL
+    400036: OfficeChair_Rig:Office_Chair_GEO
+    400038: OfficeChair_Rig:Office_Chair_GRP
+    400040: rp_naomi_rigged_001_HIK_native:ball_l
+    400042: rp_naomi_rigged_001_HIK_native:ball_r
+    400044: rp_naomi_rigged_001_HIK_native:eye_end_l
+    400046: rp_naomi_rigged_001_HIK_native:eye_end_r
+    400048: rp_naomi_rigged_001_HIK_native:eye_l
+    400050: rp_naomi_rigged_001_HIK_native:eye_r
+    400052: rp_naomi_rigged_001_HIK_native:eyebrow_l
+    400054: rp_naomi_rigged_001_HIK_native:eyebrow_r
+    400056: rp_naomi_rigged_001_HIK_native:eyelid_end_l
+    400058: rp_naomi_rigged_001_HIK_native:eyelid_end_r
+    400060: rp_naomi_rigged_001_HIK_native:eyelid_l
+    400062: rp_naomi_rigged_001_HIK_native:eyelid_r
+    400064: rp_naomi_rigged_001_HIK_native:foot_end_l
+    400066: rp_naomi_rigged_001_HIK_native:foot_end_r
+    400068: rp_naomi_rigged_001_HIK_native:foot_l
+    400070: rp_naomi_rigged_001_HIK_native:foot_r
+    400072: rp_naomi_rigged_001_HIK_native:hand_l
+    400074: rp_naomi_rigged_001_HIK_native:hand_r
+    400076: rp_naomi_rigged_001_HIK_native:head
+    400078: rp_naomi_rigged_001_HIK_native:head_end
+    400080: rp_naomi_rigged_001_HIK_native:hip
+    400082: rp_naomi_rigged_001_HIK_native:index_01_l
+    400084: rp_naomi_rigged_001_HIK_native:index_01_r
+    400086: rp_naomi_rigged_001_HIK_native:index_02_l
+    400088: rp_naomi_rigged_001_HIK_native:index_02_r
+    400090: rp_naomi_rigged_001_HIK_native:index_03_l
+    400092: rp_naomi_rigged_001_HIK_native:index_03_r
+    400094: rp_naomi_rigged_001_HIK_native:index_end_l
+    400096: rp_naomi_rigged_001_HIK_native:index_end_r
+    400098: rp_naomi_rigged_001_HIK_native:jaw
+    400100: rp_naomi_rigged_001_HIK_native:jaw_end
+    400102: rp_naomi_rigged_001_HIK_native:lowerarm_l
+    400104: rp_naomi_rigged_001_HIK_native:lowerarm_r
+    400106: rp_naomi_rigged_001_HIK_native:lowerarm_twist_l
+    400108: rp_naomi_rigged_001_HIK_native:lowerarm_twist_r
+    400110: rp_naomi_rigged_001_HIK_native:lowerleg_l
+    400112: rp_naomi_rigged_001_HIK_native:lowerleg_r
+    400114: rp_naomi_rigged_001_HIK_native:lowerleg_twist_l
+    400116: rp_naomi_rigged_001_HIK_native:lowerleg_twist_r
+    400118: rp_naomi_rigged_001_HIK_native:middle_01_l
+    400120: rp_naomi_rigged_001_HIK_native:middle_01_r
+    400122: rp_naomi_rigged_001_HIK_native:middle_02_l
+    400124: rp_naomi_rigged_001_HIK_native:middle_02_r
+    400126: rp_naomi_rigged_001_HIK_native:middle_03_l
+    400128: rp_naomi_rigged_001_HIK_native:middle_03_r
+    400130: rp_naomi_rigged_001_HIK_native:middle_end_l
+    400132: rp_naomi_rigged_001_HIK_native:middle_end_r
+    400134: rp_naomi_rigged_001_HIK_native:mouth_l
+    400136: rp_naomi_rigged_001_HIK_native:mouth_r
+    400138: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_ChestEndEffector
+    400140: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_ChestOriginEffector
+    400142: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Head
+    400144: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_HeadEffector
+    400146: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Hips
+    400148: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_HipsEffector
+    400150: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftAnkleEffector
+    400152: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftArm
+    400154: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftArmRoll
+    400156: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftElbowEffector
+    400158: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftFoot
+    400160: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftFootEffector
+    400162: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftForeArm
+    400164: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftForeArmRoll
+    400166: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHand
+    400168: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandIndex1
+    400170: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandIndex2
+    400172: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandIndex3
+    400174: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandIndex4
+    400176: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandIndexEffector
+    400178: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandMiddle1
+    400180: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandMiddle2
+    400182: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandMiddle3
+    400184: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandMiddle4
+    400186: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandMiddleEffector
+    400188: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandPinky1
+    400190: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandPinky2
+    400192: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandPinky3
+    400194: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandPinky4
+    400196: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandPinkyEffector
+    400198: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandRing1
+    400200: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandRing2
+    400202: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandRing3
+    400204: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandRing4
+    400206: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandRingEffector
+    400208: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandThumb1
+    400210: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandThumb2
+    400212: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandThumb3
+    400214: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandThumb4
+    400216: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandThumbEffector
+    400218: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHipEffector
+    400220: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftKneeEffector
+    400222: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftLeg
+    400224: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftLegRoll
+    400226: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftShoulder
+    400228: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftShoulderEffector
+    400230: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftToeBase
+    400232: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftUpLeg
+    400234: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftUpLegRoll
+    400236: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftWristEffector
+    400238: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftWristEffectorAux1
+    400240: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Neck
+    400242: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Reference
+    400244: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightAnkleEffector
+    400246: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightArm
+    400248: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightArmRoll
+    400250: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightElbowEffector
+    400252: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightFoot
+    400254: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightFootEffector
+    400256: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightForeArm
+    400258: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightForeArmRoll
+    400260: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHand
+    400262: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandIndex1
+    400264: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandIndex2
+    400266: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandIndex3
+    400268: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandIndex4
+    400270: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandIndexEffector
+    400272: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandMiddle1
+    400274: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandMiddle2
+    400276: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandMiddle3
+    400278: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandMiddle4
+    400280: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandMiddleEffector
+    400282: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandPinky1
+    400284: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandPinky2
+    400286: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandPinky3
+    400288: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandPinky4
+    400290: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandPinkyEffector
+    400292: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandRing1
+    400294: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandRing2
+    400296: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandRing3
+    400298: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandRing4
+    400300: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandRingEffector
+    400302: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandThumb1
+    400304: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandThumb2
+    400306: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandThumb3
+    400308: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandThumb4
+    400310: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandThumbEffector
+    400312: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHipEffector
+    400314: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightKneeEffector
+    400316: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightLeg
+    400318: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightLegRoll
+    400320: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightShoulder
+    400322: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightShoulderEffector
+    400324: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightToeBase
+    400326: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightUpLeg
+    400328: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightUpLegRoll
+    400330: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightWristEffector
+    400332: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightWristEffectorAux1
+    400334: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Spine
+    400336: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Spine1
+    400338: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Spine2
+    400340: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_eye_l_ctrl
+    400342: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_eye_r_ctrl
+    400344: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_eyebrows_controls
+    400346: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_eyebrows_ctrl
+    400348: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_eyebrows_frame
+    400350: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_eyebrows_text
+    400352: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_eyelids_controls
+    400354: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_eyelids_ctrl
+    400356: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_eyelids_frame
+    400358: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_eyelids_text
+    400360: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_eyes_ctrl
+    400362: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_facial_controls
+    400364: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_mouth_controls
+    400366: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_mouth_ctrl
+    400368: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_mouth_frame
+    400370: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_mouth_text
+    400372: rp_naomi_rigged_001_HIK_native:neck
+    400374: rp_naomi_rigged_001_HIK_native:pinky_01_l
+    400376: rp_naomi_rigged_001_HIK_native:pinky_01_r
+    400378: rp_naomi_rigged_001_HIK_native:pinky_02_l
+    400380: rp_naomi_rigged_001_HIK_native:pinky_02_r
+    400382: rp_naomi_rigged_001_HIK_native:pinky_03_l
+    400384: rp_naomi_rigged_001_HIK_native:pinky_03_r
+    400386: rp_naomi_rigged_001_HIK_native:pinky_end_l
+    400388: rp_naomi_rigged_001_HIK_native:pinky_end_r
+    400390: rp_naomi_rigged_001_HIK_native:ring_01_l
+    400392: rp_naomi_rigged_001_HIK_native:ring_01_r
+    400394: rp_naomi_rigged_001_HIK_native:ring_02_l
+    400396: rp_naomi_rigged_001_HIK_native:ring_02_r
+    400398: rp_naomi_rigged_001_HIK_native:ring_03_l
+    400400: rp_naomi_rigged_001_HIK_native:ring_03_r
+    400402: rp_naomi_rigged_001_HIK_native:ring_end_l
+    400404: rp_naomi_rigged_001_HIK_native:ring_end_r
+    400406: rp_naomi_rigged_001_HIK_native:root
+    400408: rp_naomi_rigged_001_HIK_native:rp_naomi_rigged_001
+    400410: rp_naomi_rigged_001_HIK_native:rp_naomi_rigged_001_geo
+    400412: rp_naomi_rigged_001_HIK_native:shoulder_l
+    400414: rp_naomi_rigged_001_HIK_native:shoulder_r
+    400416: rp_naomi_rigged_001_HIK_native:spine_01
+    400418: rp_naomi_rigged_001_HIK_native:spine_02
+    400420: rp_naomi_rigged_001_HIK_native:spine_03
+    400422: rp_naomi_rigged_001_HIK_native:thumb_01_l
+    400424: rp_naomi_rigged_001_HIK_native:thumb_01_r
+    400426: rp_naomi_rigged_001_HIK_native:thumb_02_l
+    400428: rp_naomi_rigged_001_HIK_native:thumb_02_r
+    400430: rp_naomi_rigged_001_HIK_native:thumb_03_l
+    400432: rp_naomi_rigged_001_HIK_native:thumb_03_r
+    400434: rp_naomi_rigged_001_HIK_native:thumb_end_l
+    400436: rp_naomi_rigged_001_HIK_native:thumb_end_r
+    400438: rp_naomi_rigged_001_HIK_native:upperarm_l
+    400440: rp_naomi_rigged_001_HIK_native:upperarm_r
+    400442: rp_naomi_rigged_001_HIK_native:upperarm_twist_l
+    400444: rp_naomi_rigged_001_HIK_native:upperarm_twist_r
+    400446: rp_naomi_rigged_001_HIK_native:upperleg_l
+    400448: rp_naomi_rigged_001_HIK_native:upperleg_r
+    400450: rp_naomi_rigged_001_HIK_native:upperleg_twist_l
+    400452: rp_naomi_rigged_001_HIK_native:upperleg_twist_r
+    400454: //RootNode
+    2100000: OfficeChair_Rig_CR_3_072
+    2100002: OfficeChair_Rig_CR_3_073
+    2100004: OfficeChair_Rig_CR_3_070
+    2100006: rp_naomi_rigged_001_HIK_native_rp_naomi_rigged_001_mat
+    4300000: OfficeChair_Rig:Office_Chair_GEO
+    4300002: rp_naomi_rigged_001_HIK_native:rp_naomi_rigged_001_geo
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: OfficeChair_Rig:Office_Chair_GEO
+    13700002: rp_naomi_rigged_001_HIK_native:rp_naomi_rigged_001_geo
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: rp_naomi_rigged_001_HIK_native:hip
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:upperleg_l
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:upperleg_r
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:lowerleg_l
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:lowerleg_r
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:foot_l
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:foot_r
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:spine_01
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:spine_02
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:shoulder_l
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:shoulder_r
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:upperarm_l
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:upperarm_r
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:lowerarm_l
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:lowerarm_r
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:hand_l
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:hand_r
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:ball_l
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:ball_r
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:eye_l
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:eye_r
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:jaw
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:thumb_01_l
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:thumb_02_l
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:thumb_03_l
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:index_01_l
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:index_02_l
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:index_03_l
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:middle_01_l
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:middle_02_l
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:middle_03_l
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:ring_01_l
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:ring_02_l
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:ring_03_l
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:pinky_01_l
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:pinky_02_l
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:pinky_03_l
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:thumb_01_r
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:thumb_02_r
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:thumb_03_r
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:index_01_r
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:index_02_r
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:index_03_r
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:middle_01_r
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:middle_02_r
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:middle_03_r
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:ring_01_r
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:ring_02_r
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:ring_03_r
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:pinky_01_r
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:pinky_02_r
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:pinky_03_r
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_naomi_rigged_001_HIK_native:spine_03
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: SceneA_Racist_Naomi_Dialogue(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OfficeChair_Rig:Office_Chair_GRP
+      parentName: SceneA_Racist_Naomi_Dialogue(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OfficeChair_Rig:GLOBAL_CTL
+      parentName: OfficeChair_Rig:Office_Chair_GRP
+      position: {x: 0.16566831, y: 0, z: 0.009861319}
+      rotation: {x: 5.593471e-17, y: 0.9965445, z: -5.593471e-17, w: -0.083061405}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OfficeChair_Rig:Chair_Swivel_CTL
+      parentName: OfficeChair_Rig:GLOBAL_CTL
+      position: {x: -0, y: 0.31953982, z: 0}
+      rotation: {x: 0, y: -0.15858166, z: -0, w: 0.9873459}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OfficeChair_Rig:Chair_SwivelTilt_CTL
+      parentName: OfficeChair_Rig:Chair_Swivel_CTL
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OfficeChair_Rig:Chair_Wheels_CTL
+      parentName: OfficeChair_Rig:GLOBAL_CTL
+      position: {x: -0, y: 0.02209623, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OfficeChair_Rig:Office_Chair_GEO
+      parentName: OfficeChair_Rig:Office_Chair_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OfficeChair_Rig:Chair_Root_JNT
+      parentName: OfficeChair_Rig:Office_Chair_GRP
+      position: {x: 0.16566831, y: 0.121355414, z: 0.009861319}
+      rotation: {x: -0.000000004115904, y: 0.000000004115904, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1}
+    - name: OfficeChair_Rig:Chair_Seat1_JNT
+      parentName: OfficeChair_Rig:Chair_Root_JNT
+      position: {x: -0.15795209, y: 7.105427e-17, z: 2.6645352e-17}
+      rotation: {x: 0.000000011638568, y: 1.1102229e-15, z: 0.022570996, w: 0.99974525}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000007}
+    - name: OfficeChair_Rig:Chair_Seat2_JNT
+      parentName: OfficeChair_Rig:Chair_Seat1_JNT
+      position: {x: -0.04019133, y: 0.0018157141, z: 2.0523576e-34}
+      rotation: {x: 8.881783e-16, y: -2.7755572e-17, z: -1.2921405e-23, w: 1}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000007}
+    - name: OfficeChair_Rig:Chair_Seat_End_JNT
+      parentName: OfficeChair_Rig:Chair_Seat2_JNT
+      position: {x: -0.5470223, y: 0.24870399, z: 1.840702e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OfficeChair_Rig:Chair_Wheel1_JNT
+      parentName: OfficeChair_Rig:Chair_Root_JNT
+      position: {x: 0.07276022, y: -0.19324046, z: 0.26331437}
+      rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 1.0000004, y: 0.9999997, z: 1}
+    - name: OfficeChair_Rig:Chair_Wheel1_End_JNT
+      parentName: OfficeChair_Rig:Chair_Wheel1_JNT
+      position: {x: -0.022616263, y: -0.026498977, z: -0.0002973729}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OfficeChair_Rig:Chair_Wheel2_JNT
+      parentName: OfficeChair_Rig:Chair_Root_JNT
+      position: {x: 0.07276022, y: 0.1908896, z: 0.26522684}
+      rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 1.0000004, y: 0.9999997, z: 1}
+    - name: OfficeChair_Rig:Chair_Wheel2_End_JNT
+      parentName: OfficeChair_Rig:Chair_Wheel2_JNT
+      position: {x: -0.022616263, y: -0.026498977, z: -0.0002973729}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OfficeChair_Rig:Chair_Wheel3_JNT
+      parentName: OfficeChair_Rig:Chair_Root_JNT
+      position: {x: 0.07276022, y: 0.31142217, z: -0.09951136}
+      rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 1.0000004, y: 0.9999997, z: 1}
+    - name: OfficeChair_Rig:Chair_Wheel3_End_JNT
+      parentName: OfficeChair_Rig:Chair_Wheel3_JNT
+      position: {x: -0.022616263, y: -0.026498977, z: -0.0002973729}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OfficeChair_Rig:Chair_Wheel4_JNT
+      parentName: OfficeChair_Rig:Chair_Root_JNT
+      position: {x: 0.07276022, y: 0.00046768313, z: -0.3268487}
+      rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 1.0000004, y: 0.9999997, z: 1}
+    - name: OfficeChair_Rig:Chair_Wheel4_End_JNT
+      parentName: OfficeChair_Rig:Chair_Wheel4_JNT
+      position: {x: -0.022616263, y: -0.026498977, z: -0.0002973729}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OfficeChair_Rig:Chair_Wheel5_JNT
+      parentName: OfficeChair_Rig:Chair_Root_JNT
+      position: {x: 0.07276022, y: -0.31012005, z: -0.10260776}
+      rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 1.0000004, y: 0.9999997, z: 1}
+    - name: OfficeChair_Rig:Chair_Wheel5_End_JNT
+      parentName: OfficeChair_Rig:Chair_Wheel5_JNT
+      position: {x: -0.022616263, y: -0.026498977, z: -0.0002973729}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:rp_naomi_rigged_001
+      parentName: SceneA_Racist_Naomi_Dialogue(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Reference
+      parentName: rp_naomi_rigged_001_HIK_native:rp_naomi_rigged_001
+      position: {x: 0.5575254, y: 0, z: 0.064957835}
+      rotation: {x: 0, y: 0.66049445, z: -0, w: 0.75083095}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_ChestEndEffector
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Reference
+      position: {x: 0.002372196, y: 0.9640927, z: -0.42746782}
+      rotation: {x: 0.046297584, y: -0.07980471, z: -0.002682066, w: 0.9957312}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_ChestOriginEffector
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Reference
+      position: {x: -0.000000012673265, y: 0.630021, z: -0.43911028}
+      rotation: {x: 0.026525814, y: -0.016049191, z: 0.00097077666, w: 0.9995188}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_HeadEffector
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Reference
+      position: {x: -0.0074940096, y: 1.0970579, z: -0.38695216}
+      rotation: {x: 0.07275365, y: -0.11236936, z: -0.010835929, w: 0.9909403}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Hips
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Reference
+      position: {x: -0.000000027263818, y: 0.50269467, z: -0.4391104}
+      rotation: {x: 1.9714962e-16, y: 0.000000045933746, z: -1.6653347e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftUpLeg
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Hips
+      position: {x: -0.081686765, y: 0.0000019836425, z: 0.000034235767}
+      rotation: {x: -0.70726126, y: 0.0006365306, z: -0.00066876493, w: 0.70695174}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftUpLegRoll
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftUpLeg
+      position: {x: -0.0000035095213, y: -0.21235168, z: 0.0014941003}
+      rotation: {x: -0.00000020915311, y: -0.000000029764461, z: 0.00000035068115,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftLeg
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftUpLegRoll
+      position: {x: -0.0000035095213, y: -0.21235172, z: 0.0014941003}
+      rotation: {x: 0.6887188, y: -0.00066484034, z: 0.0006694529, w: 0.725028}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftLegRoll
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftLeg
+      position: {x: -0.0003344345, y: -0.16784431, z: -0.01575218}
+      rotation: {x: 0.00000010308335, y: 0.00003551266, z: 0.0000034151265, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftFoot
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftLegRoll
+      position: {x: -0.0003344345, y: -0.1678443, z: -0.015752178}
+      rotation: {x: 0.02589345, y: -0.00004067711, z: -0.00002277499, w: 0.9996647}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftToeBase
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftFoot
+      position: {x: -0.00008167267, y: -0.15583937, z: 0.037015878}
+      rotation: {x: 3.469142e-32, y: -0, z: -1.2246467e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightUpLeg
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Hips
+      position: {x: 0.08168672, y: -0.0000019073486, z: -0.00003422969}
+      rotation: {x: -0.7062889, y: -0.057919867, z: 0.0045912955, w: 0.70553553}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightUpLegRoll
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightUpLeg
+      position: {x: -0.000018920899, y: -0.21241553, z: 0.0013109461}
+      rotation: {x: -0.00000014252629, y: 0.0000003696128, z: -0.0000002463873, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightLeg
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightUpLegRoll
+      position: {x: -0.000018920899, y: -0.21241553, z: 0.0013109457}
+      rotation: {x: 0.686522, y: -0.065493226, z: -0.07466231, w: 0.72029424}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightLegRoll
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightLeg
+      position: {x: -0.00021539688, y: -0.17280129, z: -0.016498433}
+      rotation: {x: -0.000065868546, y: -0.052788805, z: -0.005039911, w: 0.998593}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightFoot
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightLegRoll
+      position: {x: -0.00021538734, y: -0.17280129, z: -0.016498437}
+      rotation: {x: 0.010295627, y: -0.009947116, z: -0.03541093, w: 0.9992703}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightToeBase
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightFoot
+      position: {x: 0.0004313755, y: -0.1459695, z: 0.050076127}
+      rotation: {x: 1.84393e-24, y: -0.000000015056832, z: -1.2246467e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Spine
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Hips
+      position: {x: 1.9205243e-22, y: 0.1273265, z: -1.5005427e-17}
+      rotation: {x: 0.026525812, y: -0.016049236, z: 0.00097077794, w: 0.9995188}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Spine1
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Spine
+      position: {x: -2.8272183e-17, y: 0.12732643, z: -1.4941497e-17}
+      rotation: {x: 0.009731832, y: -0.031947367, z: -0.0015979111, w: 0.9994409}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Spine2
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Spine1
+      position: {x: -2.827199e-17, y: 0.12732635, z: -1.494148e-17}
+      rotation: {x: 0.010050637, y: -0.031980835, z: -0.000686794, w: 0.99943775}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftShoulder
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Spine2
+      position: {x: -0.03340311, y: 0.07930786, z: -0.010964352}
+      rotation: {x: -0.030949282, y: 0.18784836, z: 0.12573244, w: 0.9736254}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftArm
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftShoulder
+      position: {x: -0.13936959, y: 0, z: 0}
+      rotation: {x: 0.2711141, y: 0.39915442, z: 0.28789672, w: 0.82721716}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftArmRoll
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftArm
+      position: {x: -0.12692139, y: 2.842171e-16, z: -2.220446e-18}
+      rotation: {x: 0.00000007850211, y: -0.00000015982556, z: 0.0000009122061, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftForeArm
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftArmRoll
+      position: {x: -0.12692139, y: 0, z: 0}
+      rotation: {x: 0.00071806763, y: 0.71441835, z: -0.0008616122, w: 0.69971794}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftForeArmRoll
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftForeArm
+      position: {x: -0.11064388, y: 0, z: 0}
+      rotation: {x: -0.09254131, y: -0.00000077721813, z: -0.00000067680827, w: 0.9957089}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHand
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftForeArmRoll
+      position: {x: -0.11064384, y: -2.842171e-16, z: 2.220446e-18}
+      rotation: {x: -0.13682862, y: 0.060919456, z: 0.14550339, w: 0.97795475}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandIndex1
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHand
+      position: {x: -0.072310865, y: 0.0021566772, z: 0.025407787}
+      rotation: {x: -0.0000016116973, y: 0.0000006405246, z: 0.5395178, w: 0.8419742}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandIndex2
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandIndex1
+      position: {x: -0.036519926, y: -2.842171e-16, z: -2.220446e-18}
+      rotation: {x: -0.00000024895908, y: -0.000000049626177, z: 0.56576395, w: 0.82456726}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandIndex3
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandIndex2
+      position: {x: -0.021421509, y: 0, z: 0}
+      rotation: {x: -0.00000014405636, y: 0.0000016554345, z: 0.32278854, w: 0.94647115}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandIndex4
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandIndex3
+      position: {x: -0.016497117, y: 0, z: 0}
+      rotation: {x: 1.550166e-14, y: -0.00000011823226, z: 0.00000013059403, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandMiddle1
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHand
+      position: {x: -0.073334575, y: 0.0040338133, z: 0.008589461}
+      rotation: {x: 0.00000015246056, y: 0.00000038873372, z: 0.43774974, w: 0.8990969}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandMiddle2
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandMiddle1
+      position: {x: -0.04157028, y: 0, z: 0}
+      rotation: {x: -0.00000029281293, y: 0.0000004926667, z: 0.58752286, w: 0.80920756}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandMiddle3
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandMiddle2
+      position: {x: -0.021872023, y: 0, z: 2.7755575e-19}
+      rotation: {x: 0.00000021150727, y: 0.0000017885725, z: 0.34835923, w: 0.9373611}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandMiddle4
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandMiddle3
+      position: {x: -0.019978255, y: 0, z: 2.7755575e-19}
+      rotation: {x: -0.00000027906538, y: 0.000000031277857, z: 0.00000026747392,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandPinky1
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHand
+      position: {x: -0.071579665, y: 0.0014311218, z: -0.02381483}
+      rotation: {x: -0.0000013492414, y: 0.000000968928, z: 0.576563, w: 0.8170528}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandPinky2
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandPinky1
+      position: {x: -0.03143112, y: 0, z: 0}
+      rotation: {x: 0.00000036534902, y: 0.000000062305524, z: 0.50299007, w: 0.8642922}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandPinky3
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandPinky2
+      position: {x: -0.016580734, y: 0, z: 0}
+      rotation: {x: 0.0000023581995, y: -0.0000038244016, z: 0.30073205, w: 0.95370865}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandPinky4
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandPinky3
+      position: {x: -0.015579147, y: 0, z: 4.440892e-18}
+      rotation: {x: 0.000000090426006, y: 0.0000000719493, z: -0.00000020557033, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandRing1
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHand
+      position: {x: -0.072310865, y: 0.0021566772, z: -0.008099485}
+      rotation: {x: 0.0000013267065, y: -0.00000051044674, z: 0.48286796, w: 0.8756932}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandRing2
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandRing1
+      position: {x: -0.040783003, y: -2.842171e-16, z: 0}
+      rotation: {x: -0.0000006563009, y: 0.0000006659944, z: 0.6052429, w: 0.79604083}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandRing3
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandRing2
+      position: {x: -0.021496657, y: -2.842171e-16, z: 2.220446e-18}
+      rotation: {x: 0.00000033883182, y: -0.0000043956934, z: 0.31744266, w: 0.9482775}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandRing4
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandRing3
+      position: {x: -0.01761711, y: 0, z: 0}
+      rotation: {x: -0.00000008977475, y: 0.00000012798904, z: 0.00000013120605, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandThumb1
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHand
+      position: {x: -0.022340545, y: -0.01144989, z: 0.023327963}
+      rotation: {x: -0.011387335, y: 0.15412581, z: 0.2985083, w: 0.9418112}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandThumb2
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandThumb1
+      position: {x: -0.02447464, y: -0.00006561279, z: 0.010490874}
+      rotation: {x: 0.0024146799, y: 0.006350953, z: 0.001015904, w: 0.9999764}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandThumb3
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandThumb2
+      position: {x: -0.024885483, y: 0.011136474, z: -0.010469899}
+      rotation: {x: -0.0068520466, y: -0.019007236, z: -0.003930539, w: 0.99978817}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandThumb4
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandThumb3
+      position: {x: -0.016773377, y: 0.0075061033, z: -0.0070569324}
+      rotation: {x: -0.00000008589722, y: -0.000000024298439, z: -0.00000015848516,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Neck
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Spine2
+      position: {x: -2.8272074e-17, y: 0.1273265, z: -1.4941411e-17}
+      rotation: {x: 0.009001076, y: -0.01696497, z: -0.013549851, w: 0.9997238}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Head
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Neck
+      position: {x: 3.3869856e-14, y: 0.0883612, z: 0.015512868}
+      rotation: {x: 0.016950656, y: -0.016637823, z: -0.0026115752, w: 0.9997145}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_eyes_ctrl
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Head
+      position: {x: -3.3867433e-14, y: 0.061877564, z: 0.48448712}
+      rotation: {x: -4.996003e-16, y: -2.7755578e-16, z: -1.3877789e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_eye_l_ctrl
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_eyes_ctrl
+      position: {x: -0.024999999, y: 0, z: -7.105427e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_eye_r_ctrl
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_eyes_ctrl
+      position: {x: 0.024999999, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightShoulder
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Spine2
+      position: {x: 0.03558705, y: 0.07905609, z: -0.013155998}
+      rotation: {x: -0.00000019348388, y: -0.013267072, z: -0.12784737, w: 0.9917051}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightArm
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightShoulder
+      position: {x: 0.13371997, y: -2.842171e-16, z: 0}
+      rotation: {x: 0.113544255, y: -0.34392908, z: -0.3691649, w: 0.8558842}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightArmRoll
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightArm
+      position: {x: 0.12227028, y: -2.842171e-16, z: 0}
+      rotation: {x: 0.00000017736595, y: -0.0000003836141, z: 0.0000002038193, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightForeArm
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightArmRoll
+      position: {x: 0.12227028, y: -2.842171e-16, z: 0}
+      rotation: {x: 0.0005008444, y: -0.6568935, z: 0.0005878158, w: 0.75398296}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightForeArmRoll
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightForeArm
+      position: {x: 0.11328953, y: 0, z: 0}
+      rotation: {x: -0.10299999, y: 0.00000055821243, z: -0.0000002534134, w: 0.99468136}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHand
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightForeArmRoll
+      position: {x: 0.11328953, y: -2.842171e-16, z: 2.220446e-18}
+      rotation: {x: -0.14766766, y: -0.059868623, z: -0.2817611, w: 0.94616103}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandIndex1
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHand
+      position: {x: 0.07260566, y: 0.00146698, z: 0.023280045}
+      rotation: {x: 0.000000034368238, y: -0.00000040227343, z: -0.2421264, w: 0.97024477}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandIndex2
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandIndex1
+      position: {x: 0.0390625, y: -2.842171e-16, z: -2.220446e-18}
+      rotation: {x: 0.00000020183973, y: -0.00000078332914, z: -0.32287055, w: 0.94644314}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandIndex3
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandIndex2
+      position: {x: 0.018555755, y: 0, z: 0}
+      rotation: {x: 0.00000074686596, y: 0.0000010973359, z: -0.1582981, w: 0.9873914}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandIndex4
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandIndex3
+      position: {x: 0.017814789, y: -2.842171e-16, z: 0}
+      rotation: {x: 0.000000013471871, y: 0.00000007385512, z: -0.00000014492313,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandMiddle1
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHand
+      position: {x: 0.07401848, y: 0.0032046507, z: 0.0051005273}
+      rotation: {x: 0.000000054506096, y: -0.0000014409181, z: -0.24479759, w: 0.9695742}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandMiddle2
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandMiddle1
+      position: {x: 0.04437912, y: 0, z: 0}
+      rotation: {x: 0.00000059061364, y: -0.0000006973179, z: -0.31954795, w: 0.9475701}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandMiddle3
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandMiddle2
+      position: {x: 0.01982231, y: -2.842171e-16, z: 0}
+      rotation: {x: 0.0000016158295, y: 0.0000036859924, z: -0.15799138, w: 0.9874405}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandMiddle4
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandMiddle3
+      position: {x: 0.02081398, y: -2.842171e-16, z: 1.110223e-18}
+      rotation: {x: -0.000000019062583, y: 0.000000057238793, z: -0.00000018864932,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandPinky1
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHand
+      position: {x: 0.07056488, y: 0.0008856201, z: -0.027475003}
+      rotation: {x: -0.0000018683373, y: -0.0000013695959, z: -0.26736262, w: 0.963596}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandPinky2
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandPinky1
+      position: {x: 0.03131668, y: 0, z: 0}
+      rotation: {x: 0.0000006961003, y: -0.000001003179, z: -0.39404878, w: 0.91908956}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandPinky3
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandPinky2
+      position: {x: 0.015836028, y: 0, z: 0}
+      rotation: {x: -0.00000009483924, y: 0.000003420793, z: -0.22505286, w: 0.9743466}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandPinky4
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandPinky3
+      position: {x: 0.015448303, y: 0, z: -8.881784e-18}
+      rotation: {x: 0.00000006675577, y: -0.000000032841776, z: 0.000000009491117,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandRing1
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHand
+      position: {x: 0.07260566, y: 0.00146698, z: -0.012424213}
+      rotation: {x: -0.000000349423, y: -0.00000019480525, z: -0.25411886, w: 0.96717304}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandRing2
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandRing1
+      position: {x: 0.042158812, y: -2.842171e-16, z: 0}
+      rotation: {x: -0.000000011111416, y: -0.00000035657376, z: -0.34945998, w: 0.93695134}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandRing3
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandRing2
+      position: {x: 0.017036514, y: 0, z: 0}
+      rotation: {x: 0.0000012648785, y: 0.0000006269705, z: -0.16313078, w: 0.98660445}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandRing4
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandRing3
+      position: {x: 0.01964363, y: 0, z: 4.440892e-18}
+      rotation: {x: -0.00000006766923, y: 0.000000031130593, z: 0.00000015749136,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandThumb1
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHand
+      position: {x: 0.025008315, y: -0.008873901, z: 0.022638703}
+      rotation: {x: -0.030213805, y: -0.05529275, z: -0.21374585, w: 0.9748552}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandThumb2
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandThumb1
+      position: {x: 0.031507798, y: -0.0006486511, z: 0.0050818543}
+      rotation: {x: 0.055128206, y: -0.13349518, z: -0.021988418, w: 0.9892707}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandThumb3
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandThumb2
+      position: {x: 0.0238266, y: 0.011404724, z: -0.009503492}
+      rotation: {x: -0.004148192, y: 0.01711649, z: 0.01233071, w: 0.99976885}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandThumb4
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandThumb3
+      position: {x: 0.015863495, y: 0.007593231, z: -0.006327345}
+      rotation: {x: -0.00000037982767, y: 0.000000028442672, z: 0.000000022724985,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_facial_controls
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Spine2
+      position: {x: 0.25, y: 0.2156877, z: 0.015512868}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_eyebrows_controls
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_facial_controls
+      position: {x: -0, y: 0.13122348, z: 0}
+      rotation: {x: -4.718448e-16, y: -2.7755576e-16, z: -1.6653345e-16, w: 1}
+      scale: {x: 5, y: 5, z: 5}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_eyebrows_ctrl
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_eyebrows_controls
+      position: {x: 0.001332, y: 0.01, z: -1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_eyebrows_frame
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_eyebrows_controls
+      position: {x: 0.001332, y: 0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_eyebrows_text
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_eyebrows_controls
+      position: {x: 0.003332, y: 5.0202403e-10, z: -1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_eyelids_controls
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_facial_controls
+      position: {x: -0.049999997, y: 0.13122348, z: 0}
+      rotation: {x: -4.718448e-16, y: -2.7755576e-16, z: -1.6653345e-16, w: 1}
+      scale: {x: 5, y: 5, z: 5}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_eyelids_ctrl
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_eyelids_controls
+      position: {x: 0.0013320001, y: 0.01, z: -6.111999e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_eyelids_frame
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_eyelids_controls
+      position: {x: 0.0013320001, y: 0.01, z: 4.4408924e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_eyelids_text
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_eyelids_controls
+      position: {x: 0.003332, y: 5.0202403e-10, z: -8.881784e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_mouth_controls
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_facial_controls
+      position: {x: -0, y: 0.12020458, z: 0}
+      rotation: {x: -4.718448e-16, y: -2.7755576e-16, z: -1.6653345e-16, w: 1}
+      scale: {x: 5, y: 5, z: 5}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_mouth_ctrl
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_mouth_controls
+      position: {x: -0.0035977918, y: -0.000017771059, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_mouth_frame
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_mouth_controls
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_mouth_text
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_mouth_controls
+      position: {x: -0.01, y: -0.020674875, z: -3.5527136e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_HipsEffector
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Reference
+      position: {x: -0.000000053275837, y: 0.5026947, z: -0.4391104}
+      rotation: {x: 1.4163847e-16, y: 8.016951e-10, z: -1.110223e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftAnkleEffector
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Reference
+      position: {x: -0.082362615, y: 0.16900155, z: -0.028457766}
+      rotation: {x: 0.0000000011002735, y: -0.0000000054554676, z: 7.2585853e-16,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftElbowEffector
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Reference
+      position: {x: -0.21687132, y: 0.7251316, z: -0.25816393}
+      rotation: {x: -0.09208494, y: 0.88510233, z: 0.43230772, w: 0.14568545}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftFootEffector
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Reference
+      position: {x: -0.082444325, y: 0.013162164, z: 0.0085581}
+      rotation: {x: 6.223419e-32, y: -0.0000000055652922, z: -1.2246467e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandIndexEffector
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Reference
+      position: {x: 0.048114683, y: 0.7512826, z: -0.23480152}
+      rotation: {x: -0.7721658, y: -0.08524933, z: -0.037958886, w: 0.6285314}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandMiddleEffector
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Reference
+      position: {x: 0.06025386, y: 0.734768, z: -0.2343561}
+      rotation: {x: -0.7652684, y: -0.13368694, z: -0.07744746, w: 0.6248953}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandPinkyEffector
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Reference
+      position: {x: 0.05021451, y: 0.7040321, z: -0.22054693}
+      rotation: {x: -0.76658183, y: -0.12593783, z: -0.07111366, w: 0.62564754}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandRingEffector
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Reference
+      position: {x: 0.055855095, y: 0.7182951, z: -0.23045963}
+      rotation: {x: -0.77001715, y: -0.1028878, z: -0.05231691, w: 0.6274955}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHandThumbEffector
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Reference
+      position: {x: 0.07664165, y: 0.76774794, z: -0.2219716}
+      rotation: {x: 0.11296503, y: 0.73352784, z: 0.5979458, w: -0.30271536}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftHipEffector
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Reference
+      position: {x: -0.08168677, y: 0.5026967, z: -0.43907616}
+      rotation: {x: -0.70726126, y: 0.000636563, z: -0.00066873245, w: 0.70695174}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftKneeEffector
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Reference
+      position: {x: -0.08170724, y: 0.50587106, z: -0.014374077}
+      rotation: {x: -0.025893487, y: 0.000004775703, z: 0.000020262853, w: 0.9996647}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftShoulderEffector
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Reference
+      position: {x: -0.16683541, y: 0.92670166, z: -0.40411615}
+      rotation: {x: 0.2450726, y: 0.5150108, z: 0.3690412, w: 0.73383373}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftWristEffector
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Reference
+      position: {x: -0.008729863, y: 0.7333296, z: -0.18347666}
+      rotation: {x: -0.030337054, y: 0.7762663, z: 0.62963957, w: -0.0066625974}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_LeftWristEffectorAux1
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Reference
+      position: {x: -0.009293684, y: 0.7314144, z: -0.18327764}
+      rotation: {x: -0.036904678, y: 0.77374524, z: 0.6323142, w: -0.01162183}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightAnkleEffector
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Reference
+      position: {x: 0.081218325, y: 0.15895648, z: -0.030386603}
+      rotation: {x: -0.0000000060022534, y: -0.19955076, z: 0.000000039678117, w: 0.9798875}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightElbowEffector
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Reference
+      position: {x: 0.21144398, y: 0.72395307, z: -0.28558692}
+      rotation: {x: 0.19523485, y: 0.80853397, z: 0.45894074, w: -0.3122973}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightFootEffector
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Reference
+      position: {x: 0.062031854, y: 0.01298685, z: 0.015870161}
+      rotation: {x: -1.1456623e-10, y: -0.19955076, z: 5.6257365e-10, w: 0.9798875}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandIndexEffector
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Reference
+      position: {x: -0.07619185, y: 0.757356, z: -0.16236456}
+      rotation: {x: -0.4236735, y: 0.58951306, z: 0.5434463, w: 0.42147508}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandMiddleEffector
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Reference
+      position: {x: -0.08458706, y: 0.73957664, z: -0.16542165}
+      rotation: {x: -0.42336902, y: 0.5904238, z: 0.54360616, w: 0.42029843}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandPinkyEffector
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Reference
+      position: {x: -0.057415213, y: 0.7059039, z: -0.15682493}
+      rotation: {x: -0.31115815, y: 0.6078134, z: 0.19666335, w: 0.70360994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandRingEffector
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Reference
+      position: {x: -0.07700623, y: 0.7216922, z: -0.16442375}
+      rotation: {x: -0.4470773, y: 0.5677822, z: 0.5260177, w: 0.44838667}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHandThumbEffector
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Reference
+      position: {x: -0.054031108, y: 0.7667551, z: -0.13794275}
+      rotation: {x: 0.04253349, y: 0.7116107, z: 0.66186684, w: 0.23180482}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightHipEffector
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Reference
+      position: {x: 0.08168666, y: 0.50269276, z: -0.43914467}
+      rotation: {x: -0.7062889, y: -0.05791983, z: 0.0045913276, w: 0.7055355}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightKneeEffector
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Reference
+      position: {x: 0.049410045, y: 0.5043516, z: -0.015536482}
+      rotation: {x: -0.019745188, y: -0.13750847, z: 0.036650196, w: 0.98962533}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightShoulderEffector
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Reference
+      position: {x: 0.15715423, y: 0.93247443, z: -0.40121573}
+      rotation: {x: 0.15458833, y: -0.4043627, z: -0.47486174, w: 0.7662243}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightWristEffector
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Reference
+      position: {x: 0.046340186, y: 0.7305363, z: -0.1305652}
+      rotation: {x: 0.07634048, y: 0.7177479, z: 0.69070107, w: -0.044069875}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_RightWristEffectorAux1
+      parentName: rp_naomi_rigged_001_HIK_native:naomi_rigged_001_Ctrl_Reference
+      position: {x: 0.0473031, y: 0.7304021, z: -0.13070698}
+      rotation: {x: 0.08679161, y: 0.7189017, z: 0.68879384, w: -0.034795243}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:rp_naomi_rigged_001_geo
+      parentName: rp_naomi_rigged_001_HIK_native:rp_naomi_rigged_001
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:root
+      parentName: rp_naomi_rigged_001_HIK_native:rp_naomi_rigged_001
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:hip
+      parentName: rp_naomi_rigged_001_HIK_native:root
+      position: {x: 0.000000029802322, y: 0.9438085, z: 0.008973832}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.5}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000007}
+    - name: rp_naomi_rigged_001_HIK_native:spine_01
+      parentName: rp_naomi_rigged_001_HIK_native:hip
+      position: {x: -0.12732647, y: -8.8817837e-17, z: 2.997602e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: rp_naomi_rigged_001_HIK_native:spine_02
+      parentName: rp_naomi_rigged_001_HIK_native:spine_01
+      position: {x: -0.1273264, y: -0.0000000064624874, z: -0.0000000020394633}
+      rotation: {x: -0, y: -0, z: -0, w: -1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:spine_03
+      parentName: rp_naomi_rigged_001_HIK_native:spine_02
+      position: {x: -0.12732634, y: -0.000000012112063, z: 0.000000006922951}
+      rotation: {x: -0, y: -0, z: -0, w: -1}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000006}
+    - name: rp_naomi_rigged_001_HIK_native:neck
+      parentName: rp_naomi_rigged_001_HIK_native:spine_03
+      position: {x: -0.12732655, y: 0.000000008502069, z: 0.0000000048307767}
+      rotation: {x: -0, y: -0, z: 0.08678597, w: 0.996227}
+      scale: {x: 1.0000008, y: 1.0000005, z: 1.000001}
+    - name: rp_naomi_rigged_001_HIK_native:head
+      parentName: rp_naomi_rigged_001_HIK_native:neck
+      position: {x: -0.08971263, y: -0.000000016056232, z: -0.0000000019479565}
+      rotation: {x: -0, y: -0, z: -0.08678597, w: 0.996227}
+      scale: {x: 1.0000008, y: 1.0000007, z: 1.0000013}
+    - name: rp_naomi_rigged_001_HIK_native:head_end
+      parentName: rp_naomi_rigged_001_HIK_native:head
+      position: {x: -0.17157058, y: 7.105427e-17, z: 5.0356934e-21}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000008, y: 1.0000006, z: 1.0000014}
+    - name: rp_naomi_rigged_001_HIK_native:jaw
+      parentName: rp_naomi_rigged_001_HIK_native:head
+      position: {x: -0.0066529, y: -0.031298187, z: -0.0000016049726}
+      rotation: {x: 0.00004917382, y: -0.000118136384, z: 0.9230999, w: 0.38456017}
+      scale: {x: 1.0000008, y: 1.0000004, z: 1.0000017}
+    - name: rp_naomi_rigged_001_HIK_native:jaw_end
+      parentName: rp_naomi_rigged_001_HIK_native:jaw
+      position: {x: -0.05840213, y: -1.4210854e-16, z: 0}
+      rotation: {x: -0, y: 3.6379784e-12, z: 0.000000005809218, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 0.9999998}
+    - name: rp_naomi_rigged_001_HIK_native:eye_l
+      parentName: rp_naomi_rigged_001_HIK_native:head
+      position: {x: -0.059939053, y: -0.0712857, z: -0.028095355}
+      rotation: {x: -0, y: -0, z: 0.7071059, w: 0.7071077}
+      scale: {x: 1.0000013, y: 1.0000004, z: 1.0000017}
+    - name: rp_naomi_rigged_001_HIK_native:eye_end_l
+      parentName: rp_naomi_rigged_001_HIK_native:eye_l
+      position: {x: -0.01623162, y: -6.053824e-14, z: 8.881784e-18}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999999, y: 1.0000002, z: 0.99999994}
+    - name: rp_naomi_rigged_001_HIK_native:eye_r
+      parentName: rp_naomi_rigged_001_HIK_native:head
+      position: {x: -0.061877564, y: -0.070844375, z: 0.028537633}
+      rotation: {x: 0.000000029802322, y: 0.000000029802319, z: 0.707108, w: 0.70710546}
+      scale: {x: 1.0000014, y: 1.0000001, z: 1.000002}
+    - name: rp_naomi_rigged_001_HIK_native:eye_end_r
+      parentName: rp_naomi_rigged_001_HIK_native:eye_r
+      position: {x: -0.0164381, y: -1.2050804e-13, z: 1.3322676e-17}
+      rotation: {x: -1.7763566e-15, y: -1.7763566e-15, z: -8.881784e-16, w: 1}
+      scale: {x: 1.0000013, y: 1, z: 1.0000015}
+    - name: rp_naomi_rigged_001_HIK_native:mouth_l
+      parentName: rp_naomi_rigged_001_HIK_native:head
+      position: {x: 0.007380907, y: -0.07728578, z: -0.025953429}
+      rotation: {x: -0.27059805, y: 0.27059802, z: 0.6532815, w: 0.6532815}
+      scale: {x: 1.000002, y: 1.0000006, z: 1.0000019}
+    - name: rp_naomi_rigged_001_HIK_native:mouth_r
+      parentName: rp_naomi_rigged_001_HIK_native:head
+      position: {x: 0.0073183826, y: -0.07679274, z: 0.024155915}
+      rotation: {x: 0.27059805, y: -0.27059802, z: 0.6532815, w: 0.6532815}
+      scale: {x: 1.0000014, y: 1.0000005, z: 1.0000012}
+    - name: rp_naomi_rigged_001_HIK_native:eyelid_r
+      parentName: rp_naomi_rigged_001_HIK_native:head
+      position: {x: -0.061877564, y: -0.070844375, z: 0.028537633}
+      rotation: {x: 0.000000029802326, y: -0.00000002980233, z: 0.61628973, w: 0.7875196}
+      scale: {x: 1.0000013, y: 1.0000004, z: 1.0000015}
+    - name: rp_naomi_rigged_001_HIK_native:eyelid_end_r
+      parentName: rp_naomi_rigged_001_HIK_native:eyelid_r
+      position: {x: -0.022508586, y: 0, z: -4.440892e-18}
+      rotation: {x: -0.00000007163911, y: 0.000000024699283, z: -0.61628973, w: 0.7875196}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:eyelid_l
+      parentName: rp_naomi_rigged_001_HIK_native:head
+      position: {x: -0.059939053, y: -0.0712857, z: -0.028095355}
+      rotation: {x: 0.000000059604645, y: -0.00000005960465, z: 0.6154116, w: 0.78820586}
+      scale: {x: 1.000001, y: 1.0000002, z: 1.0000011}
+    - name: rp_naomi_rigged_001_HIK_native:eyelid_end_l
+      parentName: rp_naomi_rigged_001_HIK_native:eyelid_l
+      position: {x: -0.02230824, y: -1.9895197e-15, z: 5.3290704e-17}
+      rotation: {x: -0, y: 3.5527137e-15, z: -0.000000029802319, w: 1}
+      scale: {x: 1.0000011, y: 1, z: 1.000001}
+    - name: rp_naomi_rigged_001_HIK_native:eyebrow_l
+      parentName: rp_naomi_rigged_001_HIK_native:head
+      position: {x: -0.08353941, y: -0.097210504, z: -0.01831892}
+      rotation: {x: -0.27059802, y: 0.6532815, z: 0.6532815, w: 0.27059805}
+      scale: {x: 1.0000017, y: 1.000001, z: 1.0000018}
+    - name: rp_naomi_rigged_001_HIK_native:eyebrow_r
+      parentName: rp_naomi_rigged_001_HIK_native:head
+      position: {x: -0.083838955, y: -0.0970249, z: 0.022494826}
+      rotation: {x: 0.27059802, y: -0.6532815, z: 0.6532815, w: 0.27059808}
+      scale: {x: 1.000001, y: 1.0000006, z: 1.0000008}
+    - name: rp_naomi_rigged_001_HIK_native:shoulder_l
+      parentName: rp_naomi_rigged_001_HIK_native:spine_03
+      position: {x: -0.07930785, y: 0.010964348, z: -0.033403117}
+      rotation: {x: -0.000000029802322, y: -0.7660444, z: -0.000000029802322, w: 0.6427877}
+      scale: {x: 1.0000007, y: 1.000001, z: 1.0000008}
+    - name: rp_naomi_rigged_001_HIK_native:upperarm_l
+      parentName: rp_naomi_rigged_001_HIK_native:shoulder_l
+      position: {x: -0.1393697, y: -0.000000039123428, z: 0.000000104613115}
+      rotation: {x: -0.00052883005, y: 0.06322492, z: 0.0016787177, w: 0.99799776}
+      scale: {x: 1.0000001, y: 1.000001, z: 1.0000001}
+    - name: rp_naomi_rigged_001_HIK_native:lowerarm_l
+      parentName: rp_naomi_rigged_001_HIK_native:upperarm_l
+      position: {x: -0.25384286, y: 0.00000028246663, z: -0.00000013824695}
+      rotation: {x: -0.0045407885, y: 0.020481562, z: 0.032553095, w: 0.9992498}
+      scale: {x: 1.0000011, y: 1.0000004, z: 1.0000002}
+    - name: rp_naomi_rigged_001_HIK_native:hand_l
+      parentName: rp_naomi_rigged_001_HIK_native:lowerarm_l
+      position: {x: -0.22128774, y: 0.00000018573367, z: 0.00000017107071}
+      rotation: {x: 0.70710695, y: 0.000000073067184, z: 0.00000014148432, w: -0.7071067}
+      scale: {x: 0.99999946, y: 0.99999994, z: 0.9999995}
+    - name: rp_naomi_rigged_001_HIK_native:thumb_01_l
+      parentName: rp_naomi_rigged_001_HIK_native:hand_l
+      position: {x: -0.022340532, y: 0.011449929, z: -0.023327956}
+      rotation: {x: -0.6096501, y: 0.34132105, z: -0.22434402, w: -0.6793355}
+      scale: {x: 1.0000007, y: 1.0000014, z: 1.0000011}
+    - name: rp_naomi_rigged_001_HIK_native:thumb_02_l
+      parentName: rp_naomi_rigged_001_HIK_native:thumb_01_l
+      position: {x: -0.026628405, y: -0.000000007213902, z: 0.0000000021312774}
+      rotation: {x: 0.0023199017, y: 0.001105949, z: -0.030917712, w: 0.9995187}
+      scale: {x: 0.9999993, y: 0.99999934, z: 0.99999964}
+    - name: rp_naomi_rigged_001_HIK_native:thumb_03_l
+      parentName: rp_naomi_rigged_001_HIK_native:thumb_02_l
+      position: {x: -0.02920495, y: -0.0000000199638, z: 0.0000000044226085}
+      rotation: {x: -0.000000074971425, y: 0.0000012008234, z: -0.039255276, w: 0.9992292}
+      scale: {x: 1.0000006, y: 1.0000014, z: 1.0000001}
+    - name: rp_naomi_rigged_001_HIK_native:thumb_end_l
+      parentName: rp_naomi_rigged_001_HIK_native:thumb_03_l
+      position: {x: -0.019684711, y: -0.000000006257083, z: -0.00000007141177}
+      rotation: {x: -0, y: -3.5527128e-15, z: -0.000000007450578, w: 1}
+      scale: {x: 1.0000004, y: 0.9999999, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:index_01_l
+      parentName: rp_naomi_rigged_001_HIK_native:hand_l
+      position: {x: -0.07231087, y: -0.002156688, z: -0.025407774}
+      rotation: {x: -0.004119663, y: -0.036317155, z: -0.05131091, w: 0.99801373}
+      scale: {x: 0.9999998, y: 1.0000011, z: 1.0000006}
+    - name: rp_naomi_rigged_001_HIK_native:index_02_l
+      parentName: rp_naomi_rigged_001_HIK_native:index_01_l
+      position: {x: -0.036519933, y: -0.0000000139450105, z: 0.0000000021644744}
+      rotation: {x: -0.000000004656612, y: -0.00000068172795, z: -0.039255444, w: 0.9992292}
+      scale: {x: 1.0000006, y: 0.9999994, z: 1.0000001}
+    - name: rp_naomi_rigged_001_HIK_native:index_03_l
+      parentName: rp_naomi_rigged_001_HIK_native:index_02_l
+      position: {x: -0.021421496, y: -0.0000000015481163, z: 0.0000000044010458}
+      rotation: {x: 0.00000012399597, y: 0.00000090674365, z: -0.039261736, w: 0.999229}
+      scale: {x: 1.0000007, y: 1.0000011, z: 1.0000014}
+    - name: rp_naomi_rigged_001_HIK_native:index_end_l
+      parentName: rp_naomi_rigged_001_HIK_native:index_03_l
+      position: {x: -0.016497087, y: 0.0000000039516013, z: -0.000000026934222}
+      rotation: {x: -0, y: -0, z: 3.1138828e-15, w: 1}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000002}
+    - name: rp_naomi_rigged_001_HIK_native:middle_01_l
+      parentName: rp_naomi_rigged_001_HIK_native:hand_l
+      position: {x: -0.073334575, y: -0.0040338403, z: -0.008589459}
+      rotation: {x: -0.001894712, y: -0.021657089, z: -0.0449328, w: 0.9987534}
+      scale: {x: 0.9999999, y: 1.000001, z: 1.0000007}
+    - name: rp_naomi_rigged_001_HIK_native:middle_02_l
+      parentName: rp_naomi_rigged_001_HIK_native:middle_01_l
+      position: {x: -0.041570287, y: -0.000000018418746, z: -0.0000000035445153}
+      rotation: {x: 0.00000015576369, y: -0.00000020302829, z: -0.039258856, w: 0.99922913}
+      scale: {x: 1.0000006, y: 0.99999976, z: 0.9999998}
+    - name: rp_naomi_rigged_001_HIK_native:middle_03_l
+      parentName: rp_naomi_rigged_001_HIK_native:middle_02_l
+      position: {x: -0.021872021, y: -0.000000007407614, z: 6.3876254e-10}
+      rotation: {x: -0.00000015993363, y: 0.0000009232098, z: -0.03925258, w: 0.9992293}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000004}
+    - name: rp_naomi_rigged_001_HIK_native:middle_end_l
+      parentName: rp_naomi_rigged_001_HIK_native:middle_03_l
+      position: {x: -0.019978272, y: -0.000000016922755, z: -0.000000013261495}
+      rotation: {x: -0, y: -0, z: 2.2023358e-15, w: 1}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:ring_01_l
+      parentName: rp_naomi_rigged_001_HIK_native:hand_l
+      position: {x: -0.07231087, y: -0.002156742, z: 0.008099505}
+      rotation: {x: 0.00037041298, y: -0.010773065, z: -0.037295356, w: 0.9992461}
+      scale: {x: 0.9999999, y: 1.0000008, z: 1.0000006}
+    - name: rp_naomi_rigged_001_HIK_native:ring_02_l
+      parentName: rp_naomi_rigged_001_HIK_native:ring_01_l
+      position: {x: -0.040783018, y: 0.000000010798107, z: 0.000000017028311}
+      rotation: {x: -0.00000002793967, y: 0.00000035576514, z: -0.039257802, w: 0.9992292}
+      scale: {x: 1.0000006, y: 1, z: 1.0000005}
+    - name: rp_naomi_rigged_001_HIK_native:ring_03_l
+      parentName: rp_naomi_rigged_001_HIK_native:ring_02_l
+      position: {x: -0.02149663, y: -0.000000009933501, z: -0.0000000022176927}
+      rotation: {x: -0.00000028931382, y: -0.000000079897426, z: -0.039257515, w: 0.99922913}
+      scale: {x: 0.9999999, y: 0.99999976, z: 0.99999964}
+    - name: rp_naomi_rigged_001_HIK_native:ring_end_l
+      parentName: rp_naomi_rigged_001_HIK_native:ring_03_l
+      position: {x: -0.017617157, y: -0.000000026081791, z: -8.6711627e-10}
+      rotation: {x: -2.8421706e-14, y: -3.5527133e-15, z: 3.085153e-15, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:pinky_01_l
+      parentName: rp_naomi_rigged_001_HIK_native:hand_l
+      position: {x: -0.07157969, y: -0.0014311693, z: 0.023814835}
+      rotation: {x: 0.0027438097, y: -0.0032243326, z: -0.029716622, w: 0.9995494}
+      scale: {x: 1.0000001, y: 1.0000018, z: 1.0000007}
+    - name: rp_naomi_rigged_001_HIK_native:pinky_02_l
+      parentName: rp_naomi_rigged_001_HIK_native:pinky_01_l
+      position: {x: -0.031431112, y: 0.000000046751406, z: 0.000000029560587}
+      rotation: {x: 0.00000023818572, y: 0.00000056065613, z: -0.039258737, w: 0.9992291}
+      scale: {x: 1.0000011, y: 0.9999993, z: 1.0000007}
+    - name: rp_naomi_rigged_001_HIK_native:pinky_03_l
+      parentName: rp_naomi_rigged_001_HIK_native:pinky_02_l
+      position: {x: -0.016580725, y: -0.000000024893245, z: -0.000000011321366}
+      rotation: {x: -0.00000020271271, y: -0.0000008464052, z: -0.039253164, w: 0.9992293}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+    - name: rp_naomi_rigged_001_HIK_native:pinky_end_l
+      parentName: rp_naomi_rigged_001_HIK_native:pinky_03_l
+      position: {x: -0.015579079, y: 8.1298424e-10, z: 0.000000017257435}
+      rotation: {x: -1.4210851e-14, y: -0, z: -0.000000007450592, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: rp_naomi_rigged_001_HIK_native:lowerarm_twist_l
+      parentName: rp_naomi_rigged_001_HIK_native:lowerarm_l
+      position: {x: -0.1106439, y: -0.0000000034595746, z: 0.000000028831247}
+      rotation: {x: -0.000000058534464, y: -0.00000010912686, z: 0.000000029802317,
+        w: 1}
+      scale: {x: 0.9999999, y: 1.0000002, z: 0.9999999}
+    - name: rp_naomi_rigged_001_HIK_native:upperarm_twist_l
+      parentName: rp_naomi_rigged_001_HIK_native:upperarm_l
+      position: {x: -0.12692145, y: -0.00000001760813, z: -0.00000010049596}
+      rotation: {x: 7.105428e-15, y: 0.00000005960465, z: 8.881785e-16, w: 1}
+      scale: {x: 1.0000013, y: 1.0000007, z: 1.0000006}
+    - name: rp_naomi_rigged_001_HIK_native:shoulder_r
+      parentName: rp_naomi_rigged_001_HIK_native:spine_03
+      position: {x: -0.079056084, y: 0.013156005, z: 0.035587046}
+      rotation: {x: 0.7660444, y: -0, z: 0.64278775, w: -0.000000055879354}
+      scale: {x: 1.0000005, y: 1.0000007, z: 1.0000007}
+    - name: rp_naomi_rigged_001_HIK_native:upperarm_r
+      parentName: rp_naomi_rigged_001_HIK_native:shoulder_r
+      position: {x: 0.13371992, y: -0.000000079033725, z: -0.000000016499092}
+      rotation: {x: 0.0005290221, y: 0.06322489, z: -0.0016784022, w: 0.99799776}
+      scale: {x: 0.9999995, y: 1.0000006, z: 0.9999999}
+    - name: rp_naomi_rigged_001_HIK_native:lowerarm_r
+      parentName: rp_naomi_rigged_001_HIK_native:upperarm_r
+      position: {x: 0.24454059, y: 0.00000006739602, z: -0.000000013160423}
+      rotation: {x: -0.0045420337, y: 0.020488502, z: 0.03230738, w: 0.9992576}
+      scale: {x: 1.0000002, y: 0.9999997, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:hand_r
+      parentName: rp_naomi_rigged_001_HIK_native:lowerarm_r
+      position: {x: 0.22657922, y: 0.00000007516412, z: 0.00000014135925}
+      rotation: {x: -0.70710695, y: 0.000000050376222, z: 0.000000008497085, w: 0.7071067}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1.0000001}
+    - name: rp_naomi_rigged_001_HIK_native:thumb_01_r
+      parentName: rp_naomi_rigged_001_HIK_native:hand_r
+      position: {x: 0.025008315, y: -0.0088738715, z: 0.022638723}
+      rotation: {x: 0.6138362, y: -0.30645382, z: 0.20880535, w: 0.6969158}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000004}
+    - name: rp_naomi_rigged_001_HIK_native:thumb_02_r
+      parentName: rp_naomi_rigged_001_HIK_native:thumb_01_r
+      position: {x: 0.031921595, y: -0.00000003237231, z: 6.723269e-11}
+      rotation: {x: 0.0014336999, y: 0.0033868987, z: -0.037177622, w: 0.9993019}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1.0000001}
+    - name: rp_naomi_rigged_001_HIK_native:thumb_03_r
+      parentName: rp_naomi_rigged_001_HIK_native:thumb_02_r
+      position: {x: 0.028072963, y: 0.000000027370708, z: -0.00000001451986}
+      rotation: {x: -0.00000018137503, y: -0.0000030426302, z: -0.03925401, w: 0.99922925}
+      scale: {x: 1.0000008, y: 1.0000002, z: 1.0000006}
+    - name: rp_naomi_rigged_001_HIK_native:thumb_end_r
+      parentName: rp_naomi_rigged_001_HIK_native:thumb_03_r
+      position: {x: 0.018690754, y: 0.000000003951179, z: -0.00000010428491}
+      rotation: {x: -0, y: 4.44089e-16, z: 0.000000007450575, w: 1}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:index_01_r
+      parentName: rp_naomi_rigged_001_HIK_native:hand_r
+      position: {x: 0.07260566, y: 0.0014670069, z: 0.023280077}
+      rotation: {x: -0.0031794005, y: -0.028208591, z: -0.060123596, w: 0.9977872}
+      scale: {x: 1.0000006, y: 1.0000002, z: 1.0000005}
+    - name: rp_naomi_rigged_001_HIK_native:index_02_r
+      parentName: rp_naomi_rigged_001_HIK_native:index_01_r
+      position: {x: 0.039062522, y: -0.00000002989921, z: -0.000000007470968}
+      rotation: {x: -0.00000011455268, y: -0.00000009126961, z: -0.039258152, w: 0.99922913}
+      scale: {x: 1.0000007, y: 1.0000004, z: 1.0000006}
+    - name: rp_naomi_rigged_001_HIK_native:index_03_r
+      parentName: rp_naomi_rigged_001_HIK_native:index_02_r
+      position: {x: 0.018555757, y: -0.000000022004771, z: 0.00000001008495}
+      rotation: {x: 0.0000000751489, y: -0.0000009861733, z: -0.0392567, w: 0.9992292}
+      scale: {x: 1.0000014, y: 1.0000006, z: 1.0000005}
+    - name: rp_naomi_rigged_001_HIK_native:index_end_r
+      parentName: rp_naomi_rigged_001_HIK_native:index_03_r
+      position: {x: 0.0178148, y: -0.000000025211872, z: -0.0000000068097665}
+      rotation: {x: -0, y: -0, z: -5.2314224e-15, w: 1}
+      scale: {x: 1.0000002, y: 1, z: 1.0000004}
+    - name: rp_naomi_rigged_001_HIK_native:middle_01_r
+      parentName: rp_naomi_rigged_001_HIK_native:hand_r
+      position: {x: 0.07401848, y: 0.003204623, z: 0.0051005464}
+      rotation: {x: -0.00086069095, y: -0.009835242, z: -0.056239843, w: 0.9983685}
+      scale: {x: 1.0000001, y: 1, z: 1.0000002}
+    - name: rp_naomi_rigged_001_HIK_native:middle_02_r
+      parentName: rp_naomi_rigged_001_HIK_native:middle_01_r
+      position: {x: 0.044379134, y: 0.00000006163463, z: 0.000000023678634}
+      rotation: {x: 0.00000017089765, y: -0.0000003213062, z: -0.03925454, w: 0.99922925}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000007}
+    - name: rp_naomi_rigged_001_HIK_native:middle_03_r
+      parentName: rp_naomi_rigged_001_HIK_native:middle_02_r
+      position: {x: 0.019822318, y: -0.000000024143231, z: -0.000000006250316}
+      rotation: {x: -0.0000001475921, y: 0.00000030133742, z: -0.039257955, w: 0.9992292}
+      scale: {x: 1.0000014, y: 1.0000004, z: 1.0000007}
+    - name: rp_naomi_rigged_001_HIK_native:middle_end_r
+      parentName: rp_naomi_rigged_001_HIK_native:middle_03_r
+      position: {x: 0.02081397, y: -0.000000016440513, z: 0.00000003608692}
+      rotation: {x: -0, y: -0, z: 0.000000007450592, w: 1}
+      scale: {x: 1.0000012, y: 1.0000006, z: 1.0000007}
+    - name: rp_naomi_rigged_001_HIK_native:ring_01_r
+      parentName: rp_naomi_rigged_001_HIK_native:hand_r
+      position: {x: 0.07260566, y: 0.0014669875, z: -0.012424181}
+      rotation: {x: 0.0014340578, y: 0.0049718553, z: -0.04924014, w: 0.9987736}
+      scale: {x: 1.0000002, y: 0.9999998, z: 1.0000005}
+    - name: rp_naomi_rigged_001_HIK_native:ring_02_r
+      parentName: rp_naomi_rigged_001_HIK_native:ring_01_r
+      position: {x: 0.042158827, y: -0.000000040713775, z: 0.000000018149255}
+      rotation: {x: 0.000000039231953, y: 0.00000026961783, z: -0.039260037, w: 0.9992291}
+      scale: {x: 1, y: 1.0000008, z: 1.0000005}
+    - name: rp_naomi_rigged_001_HIK_native:ring_03_r
+      parentName: rp_naomi_rigged_001_HIK_native:ring_02_r
+      position: {x: 0.017036488, y: 0.000000074520734, z: -0.0000000048577746}
+      rotation: {x: -0.000000291423, y: -0.0000009946884, z: -0.039255075, w: 0.99922925}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+    - name: rp_naomi_rigged_001_HIK_native:ring_end_r
+      parentName: rp_naomi_rigged_001_HIK_native:ring_03_r
+      position: {x: 0.019643698, y: -0.000000037141962, z: -0.000000037590716}
+      rotation: {x: -0, y: 3.5527128e-15, z: -0.0000000074505633, w: 1}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000005}
+    - name: rp_naomi_rigged_001_HIK_native:pinky_01_r
+      parentName: rp_naomi_rigged_001_HIK_native:hand_r
+      position: {x: 0.070564896, y: 0.0008856614, z: -0.02747499}
+      rotation: {x: 0.0037907055, y: 0.015639095, z: -0.04118447, w: 0.999022}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000002}
+    - name: rp_naomi_rigged_001_HIK_native:pinky_02_r
+      parentName: rp_naomi_rigged_001_HIK_native:pinky_01_r
+      position: {x: 0.03131668, y: -0.000000065382125, z: -0.000000019765594}
+      rotation: {x: 0.000000038649876, y: 0.00000034924588, z: -0.03925356, w: 0.99922925}
+      scale: {x: 1.0000007, y: 1.0000006, z: 1.0000006}
+    - name: rp_naomi_rigged_001_HIK_native:pinky_03_r
+      parentName: rp_naomi_rigged_001_HIK_native:pinky_02_r
+      position: {x: 0.01583603, y: -0.000000008300664, z: 0.000000014944986}
+      rotation: {x: -0.00000023386049, y: -0.00000032826176, z: -0.039253384, w: 0.9992293}
+      scale: {x: 1.0000014, y: 1.0000005, z: 1.0000008}
+    - name: rp_naomi_rigged_001_HIK_native:pinky_end_r
+      parentName: rp_naomi_rigged_001_HIK_native:pinky_03_r
+      position: {x: 0.015448324, y: -0.000000030268282, z: -0.000000016690624}
+      rotation: {x: -0, y: -3.5527128e-15, z: 0.000000007450569, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: rp_naomi_rigged_001_HIK_native:lowerarm_twist_r
+      parentName: rp_naomi_rigged_001_HIK_native:lowerarm_r
+      position: {x: 0.11328965, y: 0.00000008486687, z: -0.00000004441982}
+      rotation: {x: 0.00000004034953, y: 0.00000011315835, z: -0.000000074505806,
+        w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: rp_naomi_rigged_001_HIK_native:upperarm_twist_r
+      parentName: rp_naomi_rigged_001_HIK_native:upperarm_r
+      position: {x: 0.122270346, y: 0.0000000032647816, z: -0.000000019189804}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000004, z: 0.99999976}
+    - name: rp_naomi_rigged_001_HIK_native:upperleg_l
+      parentName: rp_naomi_rigged_001_HIK_native:hip
+      position: {x: -0.0000019836425, y: -0.000034234425, z: -0.08168674}
+      rotation: {x: -0.000000014901161, y: -0.0000082701445, z: 0.003517896, w: -0.9999938}
+      scale: {x: 1, y: 1.0000015, z: 1.0000014}
+    - name: rp_naomi_rigged_001_HIK_native:lowerleg_l
+      parentName: rp_naomi_rigged_001_HIK_native:upperleg_l
+      position: {x: 0.42471403, y: 0.00000046901485, z: 0.00000041462485}
+      rotation: {x: -0.000042678294, y: -0.0009870267, z: -0.050284564, w: -0.9987345}
+      scale: {x: 1.0000019, y: 0.9999993, z: 1.000001}
+    - name: rp_naomi_rigged_001_HIK_native:foot_l
+      parentName: rp_naomi_rigged_001_HIK_native:lowerleg_l
+      position: {x: 0.3371644, y: -0.000000025369523, z: -0.00000013329418}
+      rotation: {x: 0.00004658103, y: 0.0009951293, z: 0.046770807, w: -0.9989052}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000006}
+    - name: rp_naomi_rigged_001_HIK_native:ball_l
+      parentName: rp_naomi_rigged_001_HIK_native:foot_l
+      position: {x: 0.1558395, y: -0.03701586, z: -0.00008167884}
+      rotation: {x: 0.0028769078, y: -0.0031546655, z: -0.738881, w: -0.6738225}
+      scale: {x: 1.0000008, y: 1.0000004, z: 1.0000008}
+    - name: rp_naomi_rigged_001_HIK_native:foot_end_l
+      parentName: rp_naomi_rigged_001_HIK_native:ball_l
+      position: {x: -0.061776247, y: 3.5527136e-17, z: 0}
+      rotation: {x: -0, y: -0, z: -0.0000000140262255, w: 1}
+      scale: {x: 1.0000008, y: 1, z: 1.0000007}
+    - name: rp_naomi_rigged_001_HIK_native:lowerleg_twist_l
+      parentName: rp_naomi_rigged_001_HIK_native:lowerleg_l
+      position: {x: 0.16858213, y: -0.0000000025966362, z: -0.000000010024338}
+      rotation: {x: -0, y: -0, z: -0.0000000011464215, w: 1}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000007}
+    - name: rp_naomi_rigged_001_HIK_native:upperleg_twist_l
+      parentName: rp_naomi_rigged_001_HIK_native:upperleg_l
+      position: {x: 0.21235693, y: -0.00000008996991, z: -0.000000015977058}
+      rotation: {x: -0, y: -0, z: -1.2323476e-13, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000006}
+    - name: rp_naomi_rigged_001_HIK_native:upperleg_r
+      parentName: rp_naomi_rigged_001_HIK_native:hip
+      position: {x: 0.0000019073486, y: 0.000034246652, z: 0.08168668}
+      rotation: {x: 0.000044554472, y: 0.00000008940697, z: 0.99999523, w: 0.0030857772}
+      scale: {x: 1.0000008, y: 1.0000005, z: 1.0000011}
+    - name: rp_naomi_rigged_001_HIK_native:lowerleg_r
+      parentName: rp_naomi_rigged_001_HIK_native:upperleg_r
+      position: {x: -0.42483923, y: 0.0000017955465, z: 0.00000031711352}
+      rotation: {x: -0.000025761521, y: -0.00057806156, z: 0.050657976, w: 0.99871594}
+      scale: {x: 1.0000002, y: 1.0000011, z: 1.0000005}
+    - name: rp_naomi_rigged_001_HIK_native:foot_r
+      parentName: rp_naomi_rigged_001_HIK_native:lowerleg_r
+      position: {x: -0.3471747, y: 0.000000035562774, z: -0.00000015321916}
+      rotation: {x: 0.00002971291, y: 0.00062248105, z: -0.047575913, w: 0.9988674}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000008}
+    - name: rp_naomi_rigged_001_HIK_native:ball_r
+      parentName: rp_naomi_rigged_001_HIK_native:foot_r
+      position: {x: -0.14596961, y: 0.050076135, z: 0.0004313863}
+      rotation: {x: 0.00007405686, y: -0.000085756175, z: 0.75683784, w: 0.65360266}
+      scale: {x: 1.0000001, y: 1.000001, z: 1.0000012}
+    - name: rp_naomi_rigged_001_HIK_native:foot_end_r
+      parentName: rp_naomi_rigged_001_HIK_native:ball_r
+      position: {x: 0.04565873, y: 8.881784e-18, z: 3.5527136e-17}
+      rotation: {x: 7.2759567e-12, y: 3.6379784e-12, z: 0.000000036153153, w: 1}
+      scale: {x: 1.0000001, y: 1.0000008, z: 1.0000008}
+    - name: rp_naomi_rigged_001_HIK_native:lowerleg_twist_r
+      parentName: rp_naomi_rigged_001_HIK_native:lowerleg_r
+      position: {x: -0.17358741, y: 0.00000006144711, z: 0.000000019173221}
+      rotation: {x: -7.148627e-10, y: -0.000000014842952, z: -0.000000018617419, w: 1}
+      scale: {x: 1.0000007, y: 1.0000012, z: 1.0000013}
+    - name: rp_naomi_rigged_001_HIK_native:upperleg_twist_r
+      parentName: rp_naomi_rigged_001_HIK_native:upperleg_r
+      position: {x: -0.21241964, y: -0.000000049721105, z: 0.000000046043777}
+      rotation: {x: -0, y: -0, z: -3.98348e-12, w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000006}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
